@@ -21,6 +21,7 @@
 		84C472C0187C765500E5983D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C472A2187C765400E5983D /* UIKit.framework */; };
 		84C472C8187C765500E5983D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84C472C6187C765500E5983D /* InfoPlist.strings */; };
 		84C472CA187C765500E5983D /* _73pTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C472C9187C765500E5983D /* _73pTests.m */; };
+		84C472D5187C767D00E5983D /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C472D4187C767D00E5983D /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		84C472C5187C765500E5983D /* 273pTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "273pTests-Info.plist"; sourceTree = "<group>"; };
 		84C472C7187C765500E5983D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84C472C9187C765500E5983D /* _73pTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _73pTests.m; sourceTree = "<group>"; };
+		84C472D3187C767D00E5983D /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		84C472D4187C767D00E5983D /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				84C472A7187C765400E5983D /* InfoPlist.strings */,
 				84C472AA187C765400E5983D /* main.m */,
 				84C472AC187C765400E5983D /* 273p-Prefix.pch */,
+				84C472D3187C767D00E5983D /* DrawingView.h */,
+				84C472D4187C767D00E5983D /* DrawingView.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				84C472B5187C765400E5983D /* ViewController.m in Sources */,
 				84C472AF187C765400E5983D /* AppDelegate.m in Sources */,
 				84C472AB187C765400E5983D /* main.m in Sources */,
+				84C472D5187C767D00E5983D /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
